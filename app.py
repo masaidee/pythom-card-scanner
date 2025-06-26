@@ -77,5 +77,5 @@ def compare_face():
 if __name__ == "__main__":
     # For Docker: allow host/port override via env vars
     host = os.environ.get("FLASK_RUN_HOST", "0.0.0.0")
-    port = int(os.environ.get("FLASK_RUN_PORT", 8000))
+    port = int(os.environ.get("FLASK_RUN_PORT", 8001))
     app.run(host=host, port=port)
