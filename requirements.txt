@@ -1,1 +1,5 @@
 Flask
+pillow
+pytesseract
+deepface
+tf-keras
